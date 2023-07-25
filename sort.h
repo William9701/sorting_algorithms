@@ -1,5 +1,6 @@
-#ifndef _sort_h
-#define _sort_h
+#ifndef SORT_H
+#define SORT_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -28,4 +29,5 @@ void swap_ints(int *a, int *b);
 int lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_sort(int *array, size_t size, int left, int right);
 void quick_sort(int *array, size_t size);
+
 #endif
